@@ -52,16 +52,18 @@ body {
 }
 
 #home {
-  background-color: #1abc9c;
+  background-color: white;
+  color: black;
 }
 #about {
-  background-color: #3498db;
+  background-color: lightgray;
 }
 #projects {
-  background-color: #9b59b6;
+  background-color: white;
+  color: black;
 }
 #contact {
-  background-color: #e74c3c;
+  background-color: whitesmoke;
 }
 
 .footer {
