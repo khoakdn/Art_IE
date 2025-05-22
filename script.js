@@ -18,3 +18,32 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+// // Typing intro text on the video
+// document.addEventListener("DOMContentLoaded", () => {
+//   const typingText = document.getElementById("typing");
+//   const intro = "Federated Learning: Train smarter, collaborate privately.";
+
+//   let index = 0;
+
+//   function typeChar() {
+//     if (index < intro.length) {
+//       typingText.textContent += intro.charAt(index);
+//       index++;
+//       setTimeout(typeChar, 50);
+//     }
+//   }
+
+//   typeChar();
+// });
+
+
+// Toggle navbar style on scroll
+window.addEventListener("scroll", () => {
+  const navbar = document.querySelector(".navbar");
+  if (window.scrollY > 100) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
