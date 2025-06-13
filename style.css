@@ -687,3 +687,74 @@ row-gap: 5rem;
 }
 
 
+
+
+/* Team Section */
+.team-section {
+  background-color: #ffffff;
+  color: #333;
+  padding: 4rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.team-title {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.team-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 3rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Force 7 columns */
+  gap: 1.2rem;
+}
+
+.team-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.team-photo {
+  width: 130px;
+  height: 150px;
+  border-radius: 10%;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+}
+
+.team-name {
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.team-role {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Responsive fallback if screen is too small */
+@media (max-width: 1200px) {
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+}
