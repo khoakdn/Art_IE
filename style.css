@@ -26,7 +26,7 @@ body {
 }
 
 .navbar.scrolled {
-  background-color: black; /* Dark blue */
+  background-color: #0c4da2; /* Dark blue */
 }
 
 .navbar.scrolled a,
@@ -35,11 +35,17 @@ body {
 }
 
 .navbar.scrolled .contact-button {
-  background-color: #444;
+  background-color: #ffffff;
+  color: #0c4da2;
+  border: solid 2px;
+  border-color: #0c4da2;
 }
 
 .navbar.scrolled .contact-button:hover {
-  background-color: #222;
+  background-color: #0c4da2;
+  color: white;
+  border: solid 2px;
+  border-color: white;
 }
 
 .nav-left .logo {
